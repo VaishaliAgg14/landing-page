@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cinzel&display=swap");
+.contentPage {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 15rem auto;
+}
+
+.contentPage h1 {
+  font-size: 3rem;
+  margin-top: 2rem;
+  font-family: 'Cinzel', serif;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.contentPage .steps {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1.5rem;
+  margin: 5rem;
+}
+
+.contentPage .card-title {
+  font-size: 2rem;
+}
+
+.socialProof p {
+  font-size: 5rem;
+  text-align: center;
+  font-family: 'Akaya Telivigala', cursive;
+}
+
+.socialProof .comments {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 2rem;
+}
+
+.socialProof .comments .comment {
+  border: 0.1rem solid #ccc;
+  padding: 1rem;
+  margin: 2rem;
+  width: 40%;
+  background: -webkit-gradient(linear, left top, right top, from(#e3ffe7), to(#d9e7ff));
+  background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+}
+
+.socialProof .comments .comment .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.socialProof .comments .comment .header .name {
+  font-size: 25px;
+  color: black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.socialProof .comments .comment div {
+  font-size: 20px;
+  font-family: "Helvetica Neue",Helvetica,Arial;
+  color: grey;
+}
+
+@media (max-width: 914px) {
+  html {
+    font-size: 50%;
+  }
+  .contentPage .steps {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .contentPage .card-title {
+    text-align: center;
+  }
+  .socialProof .comments {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .socialProof .comments .comment {
+    width: 100%;
+    margin: 3rem;
+  }
+}
+
+@media (max-width: 768px) {
+  htm {
+    font-size: 55%;
+  }
+}
+
+@media (max-width: 1200px) {
+  htm {
+    font-size: 60%;
+  }
+}
+/*# sourceMappingURL=content.css.map */
