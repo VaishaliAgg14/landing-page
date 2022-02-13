@@ -9,7 +9,7 @@
     margin: 15rem auto;
 
     h1{
-        font-size: 3rem;
+        font-size: $title-size;
         margin-top: 2rem;
         font-family: 'Cinzel', serif;
         align-self: center;
@@ -19,18 +19,18 @@
         display: flex;
         justify-content: space-around;
         align-items: center;
-        font-size:1.5rem;
-        margin:5rem;
+        font-size:$text-size-small;
+        margin: 5rem;
     }
 
     .card-title{
-        font-size:2rem;
+        font-size:$text-size;
     }
 }
 
 .socialProof{
     p {
-        font-size:5rem;
+        font-size: $title-size;
         text-align: center;
         font-family: 'Akaya Telivigala', cursive;
     }
@@ -46,7 +46,6 @@
             border: 0.1rem solid #ccc;
             padding: 1rem;
             margin: 2rem;
-            width:40%;
             background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
 
             .header{
@@ -55,14 +54,14 @@
                 align-items: center;
 
                 .name{
-                    font-size:25px;
+                    font-size:$text-size-small;
                     color: black;
                     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
                 }
             }
 
             div{
-                font-size:20px;
+                font-size:$text-size-smaller;
                 font-family: "Helvetica Neue",Helvetica,Arial;
                 color:grey;
             }
@@ -71,7 +70,7 @@
 }
 
 
-@media (max-width: 914px){
+@media (max-width: 800px){
     html{
         font-size: 50%
     }

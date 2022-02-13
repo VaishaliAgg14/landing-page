@@ -10,6 +10,7 @@ body {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
+  margin: 2rem;
 }
 
 .MainPage h1 {
@@ -20,11 +21,11 @@ body {
 .MainPage .content {
   margin: 5rem;
   padding: 5rem;
-  width: 40%;
+  width: 50%;
   -webkit-box-align: right;
       -ms-flex-align: right;
           align-items: right;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
 }
 
 .MainPage .image img {

@@ -8,18 +8,19 @@ body{
 .MainPage{
     display: flex;
     justify-content: flex-end;
+    margin: 2rem;
     
     h1{
-        font-size: 3rem;
+        font-size: $title-size;
         font-weight: bold;
     }
 
     .content{
         margin: 5rem;
         padding: 5rem;
-        width:40%;
+        width:50%;
         align-items: right;
-        font-size: 1.3rem;
+        font-size: $text-size-small;
     }
 
     .image img{

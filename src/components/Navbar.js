@@ -7,7 +7,7 @@ function Navbar() {
         <h1>Title</h1>
         <div className="sideLinks">
             <div className="getStarted">
-            <button className="btn btn-outline-success" type="button">Get started</button>
+            <button className="btn btn-outline-dark" type="button">Get started</button>
             </div>
         </div>
     </div>
