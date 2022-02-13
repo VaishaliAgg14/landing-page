@@ -19,8 +19,8 @@ body {
 }
 
 .MainPage .content {
-  margin: 5rem;
-  padding: 5rem;
+  margin: 2.5rem;
+  padding: 3rem;
   width: 50%;
   -webkit-box-align: right;
       -ms-flex-align: right;
@@ -34,7 +34,7 @@ body {
 
 .mainPage-form {
   width: 45%;
-  margin: 3rem auto 4rem auto;
+  margin: 2rem auto 4rem auto;
 }
 
 @media (max-width: 600px) {
@@ -59,14 +59,11 @@ body {
     width: 100%;
     font-size: 3rem;
   }
-  .MainPage .image img {
-    display: none;
+  .mainPage-form {
+    width: 90%;
   }
-  .mainPage {
-    width: 100%;
-  }
-  .mainPage .form-control {
-    font-size: 3rem;
+  .mainPage-form .form-control {
+    font-size: 2rem;
   }
 }
 

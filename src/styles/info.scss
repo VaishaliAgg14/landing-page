@@ -1,0 +1,62 @@
+@import './variables.sass';
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+
+.info{
+    margin: 4rem auto;
+    padding:3rem;
+    display: flex;
+    justify-content: center;
+
+    .infocontent{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 2rem;
+        font-size:$text-size-small;
+
+        .infoTitle{
+            font-size:$title-size;
+            font-weight: bold;
+        }
+    }
+}
+
+@media (max-width: $extra-small-device){
+    html{
+        font-size: 50%
+    }
+
+    .info{
+        display: flex;
+        flex-direction: column-reverse;
+
+
+        .infocontent{
+            font-size: $text-size;
+
+            .infoTitle{
+                font-size: $title-size;
+                font-weight: bold;
+            }
+        }
+
+        .infoImage img{
+            width:100%;
+            margin-top:4rem;
+        }
+        
+    }
+}
+
+@media(max-width:$medium-device){
+    htm{
+        font-size: 55%
+    }
+}
+
+@media(max-width:$extra-large-device){
+    htm{
+        font-size: 60%
+    }
+}

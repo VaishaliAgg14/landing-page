@@ -13,7 +13,7 @@ function Footer() {
         company@example.com
         </p>
       </div>
-      <div className="info">
+      <div className="info-footer">
         <p><b>Company Name</b></p>
         <p>About Us</p>
         <p>Privacy Policy</p>

@@ -1,7 +1,7 @@
 body {
   background: #bec8fa;
-  background: -webkit-gradient(linear, left top, left bottom, from(#bec8fa), color-stop(50%, white));
-  background: linear-gradient(180deg, #bec8fa 0%, white 50%);
+  background: -webkit-gradient(linear, left top, left bottom, from(#bec8fa), color-stop(75%, white));
+  background: linear-gradient(180deg, #bec8fa 0%, white 75%);
 }
 
 .navbar {
@@ -14,7 +14,7 @@ body {
 }
 
 .navbar h1 {
-  font-size: 4rem;
+  font-size: 3rem;
   margin-left: 2rem;
 }
 
